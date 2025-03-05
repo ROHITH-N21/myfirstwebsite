@@ -1,0 +1,14 @@
+body{
+background-image: url('1.jpg.webp'),url('2.jpg');
+
+background-size: contain;
+background-position: center;
+background-repeat: repeat;
+height: 100vh;
+margin: 0;
+display: flex;
+align-items: center;
+justify-content: center;
+color: white;
+font-family: Arial, sans-serief;
+}
