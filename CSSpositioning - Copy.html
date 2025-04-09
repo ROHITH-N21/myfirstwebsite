@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>float example</title>
+    <style>
+        .left-float{
+            float:left;
+            width: 200px;
+            height: 150px;
+            background-color: lightblue;
+            margin-right: 10px;
+        }
+        .right-float {
+            float:right;
+            width: 200px;
+            height: 150px;
+            background-color: lightgreen;
+            margin-right: 10px;
+        }
+        .content {
+            background-color: lightgray;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="left-float"><img src="1.jpg.webp" width="350px" height="263"> Float</div>
+    <div class="right-float"><img src="2.jpg" width="350px" height="200">Right Float</div>
+    <div class="content">
+        <p>This is the content that will wrap around the floated elements.</p>
+        <p>This is the content pushed to the side of the floated elements. </p>
+      </div>
+    
+</body>
+</html>
