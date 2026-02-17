@@ -1,0 +1,38 @@
+body {
+    font-family: Arial;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  #product-list {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .product-card {
+    background: white;
+    border: 1px solid #ddd;
+    padding: 15px;
+    width: 250px;
+    box-shadow: 2px 2px 5px #aaa;
+  }
+  
+  .product-card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+  }
+  
+  button {
+    padding: 8px 12px;
+    background: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  

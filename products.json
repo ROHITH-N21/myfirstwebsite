@@ -1,0 +1,27 @@
+[
+    {
+      "id": 1,
+      "name": "Smartphone",
+      "price": 299,
+      "rating": 4.5,
+      "desc": "Powerful smartphone with 64GB storage.",
+      "image": "images.jpeg"
+    },
+    {
+      "id": 2,
+      "name": "Laptop",
+      "price": 899,
+      "rating": 4.8,
+      "desc": "High-performance laptop with 16GB RAM.",
+      "image": "laptop.jpeg"
+    },
+    {
+      "id": 3,
+      "name": "Headphones",
+      "price": 99,
+      "rating": 4.2,
+      "desc": "Noise-canceling over-ear headphones.",
+      "image": "headphone.jpeg"
+    }
+  ]
+  
